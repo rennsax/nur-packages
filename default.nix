@@ -17,3 +17,7 @@
   overlays = import ./overlays; # nixpkgs overlays
 
 }
+// (with pkgs; {
+
+
+})
