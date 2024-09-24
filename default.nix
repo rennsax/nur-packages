@@ -19,5 +19,6 @@
 }
 // (with pkgs; {
 
+  tbox = pkgs.callPackage ./pkgs/tbox ({ inherit (darwin.apple_sdk.frameworks) CoreServices; });
 
 })
