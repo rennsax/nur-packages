@@ -21,4 +21,6 @@
 
   tbox = callPackage ./pkgs/tbox ({ inherit (darwin.apple_sdk.frameworks) CoreServices; });
 
+  osx-org-protocol-client = callPackage ./pkgs/osx-org-protocol-client { };
+
 })
