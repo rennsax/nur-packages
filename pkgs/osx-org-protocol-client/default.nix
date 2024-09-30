@@ -15,6 +15,7 @@ stdenvNoCC.mkDerivation rec {
   version = "1.0.0";
 
   dontUnpack = true;
+  preferLocalBuild = true;
 
   buildPhase = ''
     runHook preBuild
