@@ -23,4 +23,6 @@
 
   osx-org-protocol-client = callPackage ./pkgs/osx-org-protocol-client { };
 
+  double-entry-generator = callPackage ./pkgs/double-entry-generator { };
+
 })
