@@ -23,4 +23,6 @@
 
   osx-org-protocol-client = callPackage ./pkgs/osx-org-protocol-client { };
 
+  osx-screencapture-nag-remover = callPackage ./pkgs/osx-screencapture-nag-remover { };
+
 })
