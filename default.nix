@@ -25,4 +25,6 @@
 
   osx-screencapture-nag-remover = callPackage ./pkgs/osx-screencapture-nag-remover { };
 
+  macism-bin = callPackage ./pkgs/macism-bin { };
+
 })
