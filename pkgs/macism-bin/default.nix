@@ -27,6 +27,9 @@ stdenvNoCC.mkDerivation {
     cp macism $out/bin/
     runHook postInstall
   '';
+
+  preferLocalBuild = true;
+
   meta = with lib; {
     description = "Command line MacOS Input Source Manager";
     homepage = "https://github.com/laishulu/macism";
